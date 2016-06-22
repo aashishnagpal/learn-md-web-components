@@ -9,6 +9,11 @@ body * {
   box-sizing: inherit;
 }
 
+h3 {
+  font-weight: normal;
+  font-size: 1.3em;
+}
+
 .button {
   display: inline-block;
   text-decoration: none;
