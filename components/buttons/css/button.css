@@ -1,0 +1,46 @@
+body {
+  box-sizing: border-box;
+  font-size: 16px;
+  font-family: "Verdana", sans-serif;
+  text-align: center;
+}
+
+body * {
+  box-sizing: inherit;
+}
+
+.button {
+  display: inline-block;
+  text-decoration: none;
+  color: #FFF;
+  padding: 0.5em;
+  font-size: inherit;
+  font-family: inherit;
+  background-color: #53A8E1;
+  border: none;
+  border-radius: 5px;
+}
+
+.button:hover {
+  background-color: #398FC7;
+}
+
+.button:active {
+  background-color: #3A759D;
+}
+
+.button:focus {
+  outline: 0;
+}
+
+.button-sm {
+  font-size: 0.7em;
+}
+
+.button-md {
+
+}
+
+.button-lg {
+  font-size: 1.5em;
+}
